@@ -1,0 +1,72 @@
+/* Propriedades Globais */
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background: #000000;
+    font-family: "Baloo Tamma 2", cursive;
+  }
+  
+  /* Fonte do cabeçalho principal */
+  .m-heading {
+    font-family: "Roboto Slab", serif;
+  }
+  
+  /* Navegação */
+  .navigation-link {
+    border: 2px solid transparent;
+  }
+  
+  .navigation-link:hover {
+    text-decoration: none;
+    border-bottom: 2px solid #ca880e;
+    transition: 0.5s ease;
+  }
+  
+  /* Altura do container principal */
+  .main-container {
+    height: 100vh;
+  }
+  
+  /* Alinhando itens na linha principal */
+  .main_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Alterando o tamanho da fonte */
+  .main_row h1 {
+    font-size: 5rem;
+  }
+  
+  /* Fazendo a imagem principal do tamanho da tela */
+  .main_row img {
+    width: auto;
+    height: 75vh;
+  }
+  
+  /* Parte do Sobre */
+  .Sobre {
+    background: #313552;
+    border-radius: 0.5rem;
+  }
+  
+  .card {
+    border-bottom: 8px solid #ca880e;
+  }
+  
+  /* Parte das Rede sociais */
+  #social-media {
+    background: #313552;
+  }
+  
+  /* Add cores nos Links das Rede sociais */
+  .media_link {
+    padding: 1rem;
+    max-width: 15rem;
+    margin-left: 1rem;
+    border: 2px solid #000000;
+    border-radius: 0.5rem;
+  }
